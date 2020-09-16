@@ -69,7 +69,7 @@ For simplicity, the following three constants simulate the user input (we don't 
 ## Notable Features
 Here are some notable features of this solution
 
-###Caching
+### Caching
 This program implements a caching mechanism for the sake of performance optimisation. Notice the minHopsCache array.
 - A cache which helps avoid duplicate traversals to find minimum hops from a given starting index in compartments to the SAMPLE_INPUT_THESIS_INDEX. 
 - The index of the array represents the starting index and value at that index is the minimum no of hops required to reach SAMPLE_INPUT_THESIS_INDEX from that starting point/index.
