@@ -1,5 +1,5 @@
 # FindingThesis
-A programming puzzle ! 
+A programming puzzle ! [Jump to solution/Code.](https://github.com/vinaywadhwa/FindingThesis/blob/master/FindingThesis.java)
 ![Finding Thesis | Programming Puzzle](findingthesis.png)
 
 
