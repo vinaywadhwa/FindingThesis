@@ -45,6 +45,7 @@ The Thesis is hidden in compartment 5. Here is a sample set of compartments as i
 #### 🤔 Reasoning:
 Path: 
 1->3>4->-5  : number of hops 3
+
 1->2->5     : number of hops 2
 
 
