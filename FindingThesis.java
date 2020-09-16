@@ -163,7 +163,7 @@ class FindingThesis {
             int jetpackThresholdValue = SAMPLE_INPUT_JETPACK_THRESHOLD_VALUES[startingIndex];
             //check if we have enough threshold to reach the target
             if (jetpackThresholdValue >= SAMPLE_INPUT_THESIS_INDEX - startingIndex) {
-                result = 1; //if thesis is at the first index itself/we are already there
+                result = 1; //we have more threshhold than there is distance from target, just need ONE jump
             } else {
                 int min = SAMPLE_INPUT_THESIS_INDEX - startingIndex; //max possible hops
                 for (int i = 1; i <= compartments[startingIndex].jetpackThreshold; i++) {
